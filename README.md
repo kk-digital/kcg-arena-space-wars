@@ -26,10 +26,6 @@ R key: Start/stop recording inputs
 P key: Start/stop replaying recorded inputs
 ESC key: Close the game
 
-## Running Tests
-
-To run the unit tests, use the following command:
-
 ## Project Structure
 
 - GameState: Contains game logic and state management
@@ -37,7 +33,17 @@ To run the unit tests, use the following command:
 - GameCamera: Manages the game camera
 - GameRenderer: Handles rendering using OpenGL
 - GameMain: The main application that ties everything together
-- Tests: Contains unit tests for the game
+- TestConsole: Contains unit tests for the game
+
+AsteroidsGame/
+├── GameMain/
+├── GameState/
+├── GameInput/
+├── GameRenderer/
+├── GameCamera/
+├── TestConsole/
+├── AsteroidsGame.sln
+└── README.md
 
 ## Dependencies
 
